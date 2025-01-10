@@ -53,7 +53,7 @@ void binomial_expansion(int n)
     int coeff[(2 * n) + 1];
     int ap = 0, bp = n;
     cout << endl
-         << "(a+b)^" << n << " = ";
+         << "(a+b)^(" << n << ") = ";
     for (int j = 2 * n; j >= 0; j--)
     {
         if (j % 2 != 0)
