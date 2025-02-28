@@ -25,5 +25,25 @@ int main()
         cout << "\n";
     }
 
+    cout << "\n";
+
+    {
+        for (int i = 1; i <= limit; i++)
+        {
+            k = 1;
+            for (int j = 1; j <= limit + (i - 1); j++)
+            {
+                if (k <= limit - i)
+                {
+                    cout << " ";
+                    k++;
+                }
+                else
+                    cout << "*";
+            }
+            cout << "\n";
+        }
+    }
+
     return 0;
 }
